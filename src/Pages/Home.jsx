@@ -1,45 +1,12 @@
-import { Link } from "react-router-dom";
 import Svg from "../Components/Svg";
 import FeatureCard from "../Components/FeatureCard";
+import HeroSection from "../Components/HeroSection";
+import PromotionalSection from "../Components/PromotionalSection";
 
 const Home = () => {
   return (
     <div className="px-5 max-w-screen-xl mx-auto">
-      <main className="grid lg:grid-cols-2 place-items-center pt-16 pb-8 md:pt-12 md:pb-24">
-        <div className="py-6 md:order-1 hidden md:block">
-          <img
-            src="https://astroship.web3templates.com/_astro/hero.6fdd0dc6_Z2mbqjy.webp"
-            width="520"
-            height="424"
-          />
-        </div>
-        <div>
-          <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">
-            Marketing website done with Astro
-          </h1>
-          <p className="text-lg mt-4 text-slate-600 max-w-xl">
-            Astroship is a starter template for startups, marketing websites &
-            landing pages.
-            <wbr /> Built with Astro.build and TailwindCSS. You can quickly
-            create any website with this starter.
-          </p>
-          <div className="mt-6 flex flex-col sm:flex-row gap-3">
-            <a
-              href="/"
-              className="rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 px-5 py-2.5 bg-black text-white hover:bg-gray-800  border-2 border-transparent flex gap-1 items-center justify-center"
-            >
-              Download for Free
-            </a>
-            <a
-              href="/"
-              className="rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 px-5 py-2.5 bg-white border-2 border-black hover:bg-gray-100 text-black  flex gap-1 items-center justify-center"
-            >
-              GitHub Repo
-            </a>
-          </div>
-        </div>
-      </main>
-
+      <HeroSection />
       <div className="mt-16 md:mt-0">
         <h2 className="text-4xl lg:text-5xl font-bold lg:tracking-tight">
           Everything you need to start a website
@@ -51,12 +18,42 @@ const Home = () => {
       </div>
 
       <div className="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
-        <FeatureCard />
-        <FeatureCard />
-        <FeatureCard />
-        <FeatureCard />
-        <FeatureCard />
-        <FeatureCard />
+        <FeatureCard
+          title={"Bring Your Own Framework"}
+          description={
+            "Build your site using React, Svelte, Vue, Preact, web components, or just plain HTML + JavaScript."
+          }
+        />
+        <FeatureCard
+          title={"100% Static HTML, No JS"}
+          description={
+            "Astro renders your entire page to static HTML, removing all JavaScript from your final build by default."
+          }
+        />
+        <FeatureCard
+          title={"On-Demand Components"}
+          description={
+            "Need some JS? Astro can automatically hydrate interactive components when they become visible on the page."
+          }
+        />
+        <FeatureCard
+          title={"Broad Integration"}
+          description={
+            "Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages."
+          }
+        />
+        <FeatureCard
+          title={"SEO Enabled"}
+          description={
+            "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!"
+          }
+        />
+        <FeatureCard
+          title={"Community"}
+          description={
+            "Astro is an open source project powered by hundreds of contributors making thousands of individual contributions."
+          }
+        />
       </div>
 
       <div className="mt-24">
@@ -73,23 +70,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bg-black p-8 md:px-20 md:py-20 mt-20 mx-auto max-w-5xl rounded-lg flex flex-col items-center text-center">
-        <h2 className="text-white text-4xl md:text-6xl tracking-tight">
-          Build faster website{" "}
-        </h2>
-        <p className="text-gray-400 text-lg mt-4 md:text-lg">
-          Pull content from anywhere and serve it fast with Astro next-gen
-          island architecture.
-        </p>
-        <div className="flex mt-5">
-          <Link
-            to="/"
-            className="rounded text-center border-2 border-transparent text-black bg-white py-2.5 px-5"
-          >
-            Get Started
-          </Link>
-        </div>
-      </div>
+      <PromotionalSection />
     </div>
   );
 };

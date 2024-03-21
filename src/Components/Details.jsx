@@ -2,7 +2,7 @@ const Details = () => {
   return (
     <div className="mt-5">
       <div className="flex items-center space-x-2 text-slate-600 mt-2">
-        <span> Sanfransico, CA 93063</span>
+        <span>1734 Sanfransico, CA 93063</span>
       </div>
       <div className="flex items-center space-x-2 text-slate-600 mt-2">
         <span>hello@astroshipstarter.com</span>
