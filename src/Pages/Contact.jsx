@@ -15,7 +15,7 @@ const Contact = () => {
             <h2 className="font-medium text-2xl text-gray-800">
               Contact Astroship
             </h2>
-            <p className="text-lg mt-3 text-slate-600 leading-relaxed">
+            <p className="text-lg mt-3 text-slate-400 font-medium leading-relaxed">
               Have something to say? We are here to help. Fill up the form or
               send email or call phone.
             </p>
@@ -25,20 +25,20 @@ const Contact = () => {
           <div>
             {/* Form  */}
             <form className="max-w-sm mx-auto">
-              <div className="mb-8">
+              <div className="mb-4">
                 <input
                   type="text"
                   id="text"
-                  className="bg-gray-50 border border-gray-300 text-black text-sm rounded-lg   block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white  "
+                  className="bg-gray-50 border-2 border-gray-300 text-black text-md rounded-lg block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white  "
                   placeholder="Full Name"
                   required
                 />
               </div>
-              <div className="mb-8">
+              <div className="mb-4">
                 <input
                   type="email"
                   id="email"
-                  className="bg-gray-50 border border-gray-300 text-black text-sm rounded-lg   block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white  "
+                  className="bg-gray-50 border-2 border-gray-300 text-black text-md rounded-lg  block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white  "
                   placeholder="Email Address"
                   required
                 />
@@ -48,7 +48,7 @@ const Contact = () => {
                   <textarea
                     id="message"
                     rows="3"
-                    className="block px-4 py-3 w-96 text-sm text-black bg-gray-50 rounded-lg border border-gray-300  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white  h-36 "
+                    className="block px-4 py-3 w-96 text-md text-black bg-gray-50 rounded-lg border-2 border-gray-300  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white  h-36 "
                     placeholder="Your Message"
                   ></textarea>
                 </div>
@@ -56,9 +56,9 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="text-white  font-medium rounded-lg text-sm w-full  px-6 py-3 bg-black text-center "
+                className="text-white  font-medium rounded-md text-md w-full  px-6 py-4 bg-black text-center "
               >
-                Submit
+                Send Message
               </button>
             </form>
           </div>
