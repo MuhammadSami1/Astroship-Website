@@ -13,7 +13,7 @@ const PricesCard2 = () => {
         <ul role="list" className="space-y-5 my-7">
           <li className="flex items-center">
             <svg
-              className="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
+              className="flex-shrink-0 w-6 h-6 text-black dark:text-blue-500"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -27,7 +27,7 @@ const PricesCard2 = () => {
           </li>
           <li className="flex">
             <svg
-              className="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
+              className="flex-shrink-0 w-6 h-6 text-black dark:text-blue-500"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -41,7 +41,7 @@ const PricesCard2 = () => {
           </li>
           <li className="flex">
             <svg
-              className="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500"
+              className="flex-shrink-0 w-6 h-6 text-black dark:text-blue-500"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -55,7 +55,7 @@ const PricesCard2 = () => {
           </li>
           <li className="flex line-through decoration-gray-500">
             <svg
-              className="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500"
+              className="flex-shrink-0 w-6 h-6 text-gray-400 dark:text-gray-500"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -69,7 +69,7 @@ const PricesCard2 = () => {
           </li>
           <li className="flex line-through decoration-gray-500">
             <svg
-              className="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500"
+              className="flex-shrink-0 w-6 h-6 text-gray-400 dark:text-gray-500"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -83,7 +83,7 @@ const PricesCard2 = () => {
           </li>
           <li className="flex line-through decoration-gray-500">
             <svg
-              className="flex-shrink-0 w-4 h-4 text-gray-400 dark:text-gray-500"
+              className="flex-shrink-0 w-6 h-6 text-gray-400 dark:text-gray-500"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
